@@ -1,0 +1,41 @@
+import 'package:health_ministry_research_library/imports.dart';
+
+class UserProfile {
+  static int? sn;
+  static String? prefix;
+  static String? username;
+  static String? fullName;
+  static String? firstName;
+  static String? lastName;
+  static String? userPhotoURL;
+  static String? userPhotoName;
+  static String? userPhotoFile;
+  static String? nationality;
+  static String? occupation;
+  static String? address;
+  static String? personalEmail;
+  static String? workEmail;
+  static String? password;
+  static String? confirmedPassword;
+  static double? userHealthScore;
+  static double? userWeight;
+  static double? userHeight;
+  static String? userAge;
+  static String? userAddress;
+  static double? userBmi;
+  static String? userLanguage;
+  static String? userPhoneNumber;
+  static String? optionalPhoneNumber;
+  static String? userGender;
+  static String? userDateOfBirth;
+  static String? phoneNumber;
+  static String? emergencyContactName;
+  static String? emergencyContactPhoneNumber;
+  static String? emergencyContactRelationshipToYou;
+  static List<String>? chronicDiseaseList;
+  static List<String>? bookmarkedHealthPersonnelList;
+  static List<String>? bookmarkedHealthFacilitiesList;
+  static DateTime? dateUpdated;
+  static DateTime? dateCreate;
+  static String? selectedTheme;
+}
